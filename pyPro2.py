@@ -1,5 +1,5 @@
 import random, string
- 
+#add 把变更录入到索引中
 def rand_str(num, length = 7):
     f = open('Activation_code.txt', 'wb')
     for i in range(num):
